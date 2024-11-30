@@ -379,16 +379,97 @@ footer .last {
     margin-top: 20px;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width: 768px) {
     body {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        background-size: cover;
+        margin-bottom: 50px;
+    }
+
+    .master {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .master nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .worker h4 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .okay {
+        padding: 10px;
+        height: auto;
+    }
+
+    .done {
+        top: 300px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 10px;
+        height: auto;
+    }
+
+    .sir h1 {
+        font-size: 36px;
+    }
+
+    .under2 nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .under2 nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    section2 .leader {
+        flex-direction: column;
+        height: auto;
+    }
+
+    section2 .laber1,
+    section2 .laber2 {
+        width: 100%;
+        height: auto;
+    }
+
+    section2 .texts ul {
+        flex-direction: column;
+        font-size: 20px;
+        gap: 10px;
+    }
+
+    section2 h2 {
+        font-size: 24px;
+    }
+
+    .shiv img {
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    footer .footer1 .footerhai {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+
+    footer .listpower {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .last {
+        margin-top: 10px;
     }
 }
 
-@media screen and (max-width:425px) {
-    body {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
