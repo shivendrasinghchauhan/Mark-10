@@ -1,84 +1,94 @@
-
-*{
+/* Global styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-body{
-background-repeat: no-repeat;
-background-position: center;
-background-size: 1000px;
-height: 100vh;
-margin-bottom: 100px;
-background-color: white;
-background-image: url("https://www.maxim.com/wp-content/uploads/2024/07/iOS-18-Multi.jpg?w=1024");
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    height: 100vh;
+    margin-bottom: 100px;
+    background-color: white;
+    background-image: url("https://www.maxim.com/wp-content/uploads/2024/07/iOS-18-Multi.jpg?w=1024");
 }
-.master{
-    display: flex ;
+
+.master {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(231, 230, 230) ;
+    background-color: rgb(231, 230, 230);
     height: 60px;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .master nav {
     margin-bottom: 5px;
     position: fixed;
-    backdrop-filter:blur(90px);
+    backdrop-filter: blur(90px);
     width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
 }
+
 .master nav ul {
-    
     display: flex;
     list-style: none;
     align-items: none;
-    gap:30px;
+    gap: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.master .nav a{
+
+.master .nav a {
     text-decoration: none;
     color: black;
 }
-.master .nav a:hover{
 
+.master .nav a:hover {
     background-color: lightblue;
     border-radius: 7px;
     color: black;
 }
-.worker h4{ 
+
+.worker h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: rgb(231, 230, 230) ;
+    background-color: rgb(231, 230, 230);
 }
-.worker h4 span{
+
+.worker h4 span {
     color: blue;
 }
-.okay{
+
+.okay {
     position: relative;
     text-align: center;
     height: 100vh;
 }
-.done{
+
+.done {
     text-decoration: none;
     border-style: solid;
     border-radius: 18px;
-    text-align:center;
+    text-align: center;
     position: relative;
     top: 500px;
     padding: 5px;
-    background-color:  rgb(84, 84, 228);
+    background-color: rgb(84, 84, 228);
     color: antiquewhite;
 }
-.done:hover{
+
+.done:hover {
     background-color: lightseagreen;
-color: aliceblue;
+    color: aliceblue;
 }
+
 section {
     height: 100vh;
     display: grid;
@@ -86,254 +96,106 @@ section {
     text-align: center;
     background-color: white;
 }
-.sir h1{
+
+.sir h1 {
     font-size: 60px;
 }
+
 .under2 {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-.under2 nav ul{ display: flex;
+
+.under2 nav ul {
+    display: flex;
     list-style: none;
     align-items: none;
-    gap:30px;
+    gap: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.under2 nav a{
+
+.under2 nav a {
     text-decoration: none;
     color: blue;
     text-decoration: none;
     border-style: solid;
     border-radius: 18px;
-    text-align:center;
+    text-align: center;
     position: relative;
     padding: 5px;
 }
-.joke{
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-section1 {
-    color: white;
-        height: 100vh;
-        display: grid;
-        align-items: center;
-        text-align: center;
-        background-color: black;
-}
-section1 .mam h1{
-    font-size: 60px;
-}
-section1 .joke2 img{
-    height: 400px;
-}
-section2 .leader{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-}
-section2 .laber1{
-    background-color: black;
-    height: 100vh;
-    width: 50%;
-    color: white;
-    text-align: center;
-}
-section2 .laber2{
-    background-color: white;
-height: 100vh;
-    width: 50%;
-    color: black;
-    text-align: center;
-}
-section2 .leader .laber1 img{
-    width: 100%;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 70px;  
-}
-section2 .texts ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    gap: 20px;
-    list-style: none;
-    margin-bottom: 10px;
-    margin-top: 50px;
-}
-section2 h2{
-    margin-bottom: 50px;
-}
-section2 .for{
-    text-decoration: none;
-    border-style: solid;
-    border-radius: 18px;
-    text-align:center;
-    padding: 5px;
-    background-color: rgb(84, 84, 228);
-    color: white;
-}
-.for:hover{
-    background-color: black;
-color: aliceblue;
-}
-section2 .laber2 h1{
-    margin-top: 50px;
-    font-size: 50px;
-    
-}
-section2 .laber2 h3{
-    font-size: 50px;
-    margin-bottom: 40px;
-    
-}
-section2 .laber2 .mind{
-    text-decoration: none;
-    border-style: solid;
-    border-radius: 18px;
-    text-align:center;
-    padding: 5px;
-    background-color: rgb(84, 84, 228);
-    color: white;
-}
-section2 .laber2 .first{
-    align-items: center;
-    justify-content: center;
-}
-section2 .laber2 .first img{
-    width: 100%;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 50px;
-}
-sectionA .power{
-    height: 100vh;
-    display: flex;
-}
-.div1{
-    background-color: white;
-    height: 100vh;
-    width: 50%;
-    color: black;
-    text-align: center;
-}
-sectionA .div1{
-    justify-content: center;
-    align-items: center;
-}
-sectionA .div1 h1{
-    margin-top: 50px;
-    font-size: 50px;
-}
-sectionA .div1 h4{
-    margin-bottom: 20px;
-}
-sectionA .div1 h3{
-    margin-bottom: 30px;
-}
-sectionA .div1 a{
-    text-decoration: none;
-    border-style: solid;
-    border-radius: 18px;
-    text-align:center;
-    padding: 5px;
-    background-color: rgb(84, 84, 228);
-    color: white;
-}
-sectionA .div1 img{
-width: 100%;
-margin-top: 55px;
-}
-.div2{
-    background-color: black;
-    height: 100vh;
-    width: 50%;
-    color: white;
-    text-align: center;
-    justify-content: center;
-}
-sectionA .div2 h1{
-    margin-top: 50px;
-    font-size: 50px;
-}
-sectionA .div2 h2{
-    color: red;
-    font-size: 18px;
-}
-sectionA .div2 h3{
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-sectionA .div2 a{
-    text-decoration: none;
-    border-style: solid;
-    border-radius: 18px;
-    text-align:center;
-    padding: 5px;
-    background-color: rgb(84, 84, 228);
-    color: white;
-}
-sectionA .div2 img{
-    width: 100%;
-    margin-top: 50px;
-}
-sectionB .shiv{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    
-    
-}
-.shiv img{
-    margin-top: 40px;
-    height: 600px;
-    
-    justify-content: center;
-    align-items: center;
 
-    
-}
-footer .footer1{
-    height: 100vh;
-    background-color: whitesmoke;
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1024px) {
+    .sir h1 {
+        font-size: 40px;
+    }
 
-}
-footer .footer1 .footerhai{   
-    padding-top: 50px; 
-    margin-left: 200px;
-    margin-right: 100px;
-    font-size: 12px;
-    line-height: 1.3;
-font-weight: 400;
-}
-footer .listpower{
-    display: flex;
-    list-style: none;
-    text-align: none;
-    gap: 100px;
-    text-decoration: none;
-    list-style-type: none;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-footer .last{
-    margin-top: 20px;
-}
-@media screen and (max-width:768px){
-    body{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .master nav ul {
+        gap: 15px;
     }
 }
-@media screen and (max-width:425px){
-    body{
-        display: grid;
-        grid-template-columns: 1fr;
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        height: auto;
+    }
+
+    .master {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .master nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .sir h1 {
+        font-size: 35px;
+    }
+
+    .done {
+        top: auto;
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .master {
+        padding: 5px;
+    }
+
+    .master nav ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .sir h1 {
+        font-size: 25px;
+    }
+
+    .done {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .under2 nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .under2 nav a {
+        font-size: 14px;
+        padding: 5px;
     }
 }
